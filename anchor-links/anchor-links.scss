@@ -1,0 +1,18 @@
+.anchor-list-container {
+	@include clearfix;
+	@include list-reset();
+
+	li {
+		position: relative;
+	}
+}
+
+.anchor-list-anchor {
+	position: relative;
+
+	&:after {
+		@include triangle(12px, #000, right);
+		content: '';
+		display: block;
+		position: absolute;
+	
