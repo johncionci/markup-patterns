@@ -1,2 +1,2 @@
-# scss-scaffold
-A portable structure to go between WordPress &amp; Drupal projects
+# Markup Patterns
+Hopefully reusable chuncks of markup for feature compomnents
