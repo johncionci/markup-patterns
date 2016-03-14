@@ -1,0 +1,39 @@
+// @file pager.scss
+
+.item-list .pager {
+    @include list-reset();
+    font-size: em(14);
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding: 4px 8px;
+    }
+
+  a {
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  [class*=pager-] {
+    background-color: blue;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 0 rgba(#000, 0.4);
+
+    &:hover {
+      background-color: #444;
+    }
+  }
+
+  .pager-current {
+    background-color: #ccc;
+    color: #444;
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+}
