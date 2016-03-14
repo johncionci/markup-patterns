@@ -1,2 +1,2 @@
 # Markup Patterns
-Hopefully reusable chuncks of markup for feature compomnents
+Hopefully reusable chunks of markup for feature compomnents.
