@@ -1,0 +1,30 @@
+$data-card-help: false !default;
+$data-card-assets-min-width: initial !default;
+
+.data-card {
+  @include display(flex);
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+
+  @if $data-card-help == true {
+    outline: 1px solid red;
+  }
+}
+
+.data-card--assets {
+  @include flex(1 1 content);
+  min-width: $data-card-assets-min-width;
+
+  @if $data-card-help == true {
+    outline: 1px solid blue;
+  }
+}
+
+.data-card--details {
+  @include flex(2 2 auto);
+  padding: 0 1em;
+
+  @if $data-card-help == true {
+    outline: 1px solid black;
+  }
+}
