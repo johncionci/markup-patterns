@@ -1,2 +1,2 @@
 # Shots
-A repositry of hopefully reusable chunks of markup for feature components.
+A repository of reusable chunks of markup for feature components.
